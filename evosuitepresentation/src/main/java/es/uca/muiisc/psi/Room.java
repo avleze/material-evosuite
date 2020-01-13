@@ -1,5 +1,5 @@
-import java.util.ArrayList;
 package es.uca.muiisc.psi;
+import java.util.ArrayList;
 
 public class Room {
 	private int number;

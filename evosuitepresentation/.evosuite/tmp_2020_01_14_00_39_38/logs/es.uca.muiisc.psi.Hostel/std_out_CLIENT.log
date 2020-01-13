@@ -1,0 +1,73 @@
+* Starting client
+* Connecting to master process on port 19548
+* Analyzing classpath: 
+  - /home/avleze/Documentos/PSI/material-evosuite/evosuitepresentation/target/classes
+  - /home/avleze/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/avleze/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class es.uca.muiisc.psi.Hostel
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 00:39:40.998 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/avleze/Documentos/PSI/material-evosuite/evosuitepresentation/.evosuite/evosuite-seeds/es.uca.muiisc.psi.Hostel.seed
+* Loaded 0 tests from /home/avleze/Documentos/PSI/material-evosuite/evosuitepresentation/.evosuite/evosuite-seeds/es.uca.muiisc.psi.Hostel.seed
+* Total number of test goals: 
+  - Line 16
+  - Branch 14
+  - Exception 0
+  - MutationFactory 26
+  - Output 0
+  - Method 2
+  - MethodNoException 2
+  - CBranchFitnessFactory 14
+* Using seed 1578958779682
+* Starting evolution
+* Search finished after 4s and 35 generations, 14837 statements, best individual has fitness: 0.3333333333333333
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 14
+* Number of covered goals: 14
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 26
+* Number of covered goals: 26
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 14
+* Number of covered goals: 14
+* Generated 6 tests with total length 39
+* Resulting test suite's coverage: 100% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 37%
+* Compiling and checking tests
+* Writing JUnit test case 'Hostel_ESTest' to /home/avleze/Documentos/PSI/material-evosuite/evosuitepresentation/.evosuite/tmp_2020_01_14_00_39_38/tests
+* Done!
+

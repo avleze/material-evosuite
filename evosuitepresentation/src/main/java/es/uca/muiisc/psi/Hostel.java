@@ -1,5 +1,5 @@
-import java.time.LocalDate;
 package es.uca.muiisc.psi;
+import java.time.LocalDate;
 
 public class Hostel {
 	Room[] rooms;
